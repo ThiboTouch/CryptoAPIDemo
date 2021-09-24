@@ -1,7 +1,9 @@
 # CryptoAPIDemo
 ##### Development Setup:
-This repo demonstrates using third-party Web API client to provide a web service for your application to suit your needs.
-The demo is base on Coinbase, a service providing crypto-currency trading. The business case is to work on pulling data for currency pairs available to trade on the Coinbase platform.
+This repo demonstrates using a third-party Web API client to provide a web service for your application.
+The demo is based on Coinbase (https://www.coinbase.com/), a service that provides crypto-currency trading. 
+
+The use case is for working on the currency pair data available for trading.
 
 Follow the instructions using the dotnet core sdk command tools.
 
@@ -14,3 +16,5 @@ Follow the instructions using the dotnet core sdk command tools.
     dotnet watch run
     ___
 3. Once the server is running navigate to https://localhost:5001/swagger to familiarise yourself with the API
+
+The repo also includes unit tests for testing API query results.
